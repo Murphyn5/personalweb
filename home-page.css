@@ -95,7 +95,7 @@ html {
 }
 
 body {
-    background: url(Seattle_Kerry_Park_Skyline.jpeg) no-repeat center center fixed;
+    background: url("Seattle.jpeg") no-repeat center center fixed;
     ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
