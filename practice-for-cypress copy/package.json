@@ -1,0 +1,14 @@
+{
+    "name": "html-forms-debugging",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Practice for Prepwork - HTML Forms Debugging",
+    "scripts": {
+        "test": "cypress run --spec 'cypress/integration/test.spec.js'"
+    },
+    "devDependencies": {
+        "cypress": "^8.3.0"
+    },
+    "author": "curriculum@appacademy.io",
+    "license": "ISC"
+}

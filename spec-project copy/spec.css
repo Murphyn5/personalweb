@@ -1,0 +1,174 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagelinks{
+    border-top: solid;
+    border-bottom: solid;
+    border-color: black;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.author{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#aalink{
+    border: solid;
+    border-color: black;
+    padding: 2px;
+}
+
+.fa{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.imagebox{
+    width: 100%;
+    height: 200px;
+    background-image: url('bodyimage2.jpeg');
+    background-size: 100% 100%;
+}
+
+.text{
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.center-text{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+
+.bodyimage{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#signin{
+    border: solid;
+    border-color: black;
+    padding: 2px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+
+.pagetitle{
+    border: solid;
+    padding: 5px 10px 10px 10px;
+}
+
+.moreinfo{
+    border: solid;
+}
+
+p{
+    padding: 0;
+    margin:0;
+}
+
+ul{
+    list-style-type:none;
+    color: blue;
+}
+
+ul > li {
+    text-indent: -5px;
+  }
+  ul > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+
+.moreinfotitle{
+    left: 20px;
+    position: relative;
+}
+.columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.iterative{
+    grid-column: 1/2;
+}
+
+.iterative-title{
+    position: relative;
+    left:30px
+}
+
+.recursive-title{
+    position: relative;
+    left:110px
+}
+
+.recursive{
+    grid-column: 2/3;
+    width: 100%;
+}
+
+.footerlinks{
+    padding-right: 10px;
+    top: 10px;
+    position: relative;
+}
+
+
+#footlogo{
+    height: 40px;
+    width: 100px;
+}
+.footer{
+display: flex;
+justify-content: space-around;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.maincontent{
+    grid-column: 2 / 3;
+}
+
+a{
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
